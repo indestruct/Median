@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(Median)
+project(MedianTest)
 
 if (MSVC)
   add_compile_options(/W4)
@@ -9,4 +9,4 @@ endif()
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(Median test.cpp Median.cpp Median.h)
+add_executable(MedianTest test.cpp Median.h)
